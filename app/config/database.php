@@ -55,7 +55,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'sky_demo',
+			'database'  => 'skygami',
 			'username'  => 'root',
 			'password'  => '',
 			'charset'   => 'utf8',

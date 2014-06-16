@@ -28,6 +28,7 @@ class CreateGameDemo extends Migration {
             $table->string("game_guid",225);
             $table->string("game_type",20)->default('game');
             $table->bigInteger("game_comment_count")->default(0);
+            $table->longText("game_url");
            	$table->timestamps();
         });
 	}
